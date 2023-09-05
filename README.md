@@ -325,10 +325,11 @@ Este arquivo principal atua como um roteador simples para direcionar solicitaç�
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Requisitos
- 7.x
+Requisitos Gerais
+
+PHP 7.x
 Um servidor web (por exemplo, Apache)
-O modelo EstudanteModel deve estar configurado corretamente.
+
 Contribuição
 Sinta-se à vontade para contribuir com este projeto. Para colaborar, siga estas etapas:
 
