@@ -53,7 +53,7 @@ http://localhost:8081/estudante/?controller=Estudante&acao=excluir&id=<ID_DO_EST
 
 Lembre-se de substituir `<ID_DO_ESTUDANTE>` pelos identificadores reais. 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Professor Controller
 
@@ -128,7 +128,7 @@ $database->closeConnection();
 
 
 
-Lembre-se de substituir as informações específicas, como o nome da tabela, os campos e os valores, de acordo com o seu projeto. Este é um formato de README.md que você pode usar para documentar sua classe `Database` no GitHub.
+Lembre-se de substituir as informações específicas, como o nome da tabela, os campos e os valores, de acordo com o seu projeto. Este é um formato de README.md que você pode usar para documentar sua classe `Database` no GitHub.```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
