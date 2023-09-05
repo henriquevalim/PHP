@@ -342,6 +342,7 @@ Faça push das alterações para a sua branch: git push origin minha-contribuica
 Crie um pull request no repositório original.
 
 Autor:
+
 Henrique Valim Ribas
 
 **O README.md serve como uma introdução e guia de uso para este projeto no GitHub.**
