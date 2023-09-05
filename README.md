@@ -128,7 +128,8 @@ $database->closeConnection();
 
 
 
-Lembre-se de substituir as informações específicas, como o nome da tabela, os campos e os valores, de acordo com o seu projeto. Este é um formato de README.md que você pode usar para documentar sua classe `Database` no GitHub.```
+Lembre-se de substituir as informações específicas, como o nome da tabela, os campos e os valores, de acordo com o seu projeto. Este é um formato de README.md que você pode usar para documentar sua classe `Database` no GitHub.
+```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -183,7 +184,7 @@ buscarPeloId(int $id): Busca um estudante pelo ID no banco de dados e retorna um
 atualizarModel(int $id, string $nome, int $idade): Atualiza os dados de um estudante no banco de dados com base no ID.
 
 excluirModel(int $id): Exclui um estudante do banco de dados com base no ID.
-
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Classe ProfessorModel
@@ -236,7 +237,7 @@ buscarPeloId(int $id): Busca um professor pelo ID no banco de dados e retorna um
 atualizarModel(int $id, string $nome, int $idade): Atualiza os dados de um professor no banco de dados com base no ID.
 
 excluirModel(int $id): Exclui um professor do banco de dados com base no ID.
-
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Formulário de Cadastro de Estudante
@@ -294,7 +295,7 @@ Utilização: Certifique-se de definir o valor dessa constante de acordo com a e
 
 Roteamento de Solicitações
 O código a seguir lida com o roteamento das solicitações com base nos parâmetros controller e acao passados pela URL:
-
+```php
 if(isset($_GET['controller']) && isset($_GET['acao'])){
     $controller = $_GET['controller'];
     $metodo = $_GET['acao'];
@@ -307,6 +308,7 @@ if(isset($_GET['controller']) && isset($_GET['acao'])){
 } else {
     require_once $_SERVER['DOCUMENT_ROOT'] . '/' . FOLDER . '/view/home.php';
 }
+```
 Verificação de Parâmetros: O código verifica se os parâmetros controller e acao estão definidos na URL.
 
 Construção do Nome do Controlador: Com base nos parâmetros recebidos, o nome do controlador é construído adicionando "Controller" ao final do nome fornecido na URL.
